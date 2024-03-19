@@ -1,0 +1,62 @@
+h3 {
+            text-transform: capitalize;
+            text-align: center;
+            font-family: Copperplate;
+            font-size: 30px;
+        }
+#list{
+    max-width: auto;
+        margin: 20px auto;
+        padding: 20px;
+        border: 2px solid #171515;
+        border-radius: 5px;
+        text-align: center;
+}
+        #items {
+            width: auto;
+            padding: 10px;
+            font-size: 25px;
+            font-family: Brush Script MT;
+            background-color: rgb(241, 179, 154);
+            border-radius: 5px 0 0 5px;
+        }
+
+        #button {
+            border: 1px solid green;
+            font-size: 20px;
+            font-family: Copperplate;
+            padding: 10px;
+            border-radius:0 5px 5px 0;
+            background-color: #008B8B;
+        }
+
+        #items:hover,
+        #button:hover {
+            background-color: darkgreen;
+            color: white;
+        }
+
+        #demo {
+            margin-top: 10px;
+            font-size: 20px;
+            font-family: Arial, sans-serif;
+        }
+
+        .item-container {
+            width:40%;
+            margin-bottom: 10px;
+            background-color: #87CEEB;
+            border: 1px solid #171616;
+            border-radius: 5px 10px;
+            display: block;
+            padding: 5px 10px;
+        }
+         
+        .delete-button{
+            margin-left: 60%;
+            cursor: pointer;
+           
+        }
+        .done-button{
+            cursor: pointer;
+        }
